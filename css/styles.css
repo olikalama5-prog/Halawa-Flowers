@@ -5,3 +5,7 @@
     --color-headings: #043d12;
     --color-body: #8feeb3;
 }
+
+body {
+    background: var(--color-primary);
+}
