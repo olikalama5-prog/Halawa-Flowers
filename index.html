@@ -16,17 +16,18 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="callout callout--primary">
-      <div class="grid grid--1x2">
-        <div class="callout__content">
-          <h2 class="callout__heading">Get Your Flowers Today!</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore est
-            soluta provident sint eveniet rerum, quia sequi eius aut architecto.
-          </p>
-        </div>
-        <a href="#" class="btn btn--secondary btn--stretched">Buy Now</a>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+        <svg class="icon icon--headings collapsible__chevron">
+          <use xlink:href="images/sprite.svg#chevron-down-solid-full"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde,
+        repudiandae.
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
